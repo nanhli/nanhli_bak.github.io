@@ -1,0 +1,243 @@
+# Page settings
+
+baseURL = "https://nanhli.github.io/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "He Li"
+        tagline = ""
+        avatar = "husky.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "New York"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "607-6973357"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "hl746@cornell.edu"
+        #[[params.contact.list]]
+        #icon = "fas fa-globe"
+        #url = "#"
+        #text = "www.yourwebsite.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Java/SpringBoot"
+        [[params.skills.list.items]]
+        details = "Golang"
+        [[params.skills.list.items]]
+        details = "MySQL"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MEng in Computer Science"
+        university = "Cornell University"
+        dates = "2021 - 2022"
+        [[params.education.list]]
+        degree = "BSc in Finance and Information Technology"
+        university = "Monash University"
+        dates = "2016 - 2020"
+
+
+
+
+
+
+
+
+#    [params.awards]
+#        enable = true
+#
+#        [[params.awards.list]]
+#        name = "Award Lorem Ipsum"
+#        body = "Microsoft lorem ipsum"
+#        date = "2019"
+#        [[params.awards.list]]
+#        name = "Award Donec Sodales"
+#        body = "Oracle Aenean"
+#        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "Chinese"
+        level = "Native"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Backend Development"
+        [[params.interests.list]]
+        name = "Hiking"
+        [[params.interests.list]]
+        name = "Movie"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Hello, my name is He Li and I am a graduate student at Cornell University. I am pursuing my MEng in Computer Science, and my interests include distributed systems and cloud computing. I am excited to learn more about these topics and to share my knowledge with others"
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Software Engineer Intern"
+        dates = "2020 - 2020"
+        company = "Bytedance"
+        details = "Developing backend microservices by using Golang"
+        [[params.experience.list.items]]
+        details = "Built the service with Go that allowed third-party APPs to host their Search APIs/data, which makes third-party APPs searchable within Lark(A Slack-like APP) Search."
+        [[params.experience.list.items]]
+        details = "Automatized the API hosting process by developing a generic RPC call feature to automatically call downstream microservices based on the PSM provided by the upstream broker service."
+        [[params.experience.list.items]]
+        details = "Collaboratively built a pipeline to index the hosted data using ElasticSearch and RocketMQ with user-friendly RESTful APIs, which provides search ability for third-party APPs."
+        [[params.experience.list.items]]
+        details = "Increased the code coverage from 50% to 90% by performing unit testing and integration testing with GoMonkey, GoMock and Convey."
+
+        
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Personal Blob"
+        meta = "Open Source"
+        tagline = "Built a full-stack personal blog website using Sprint Boot and MyBatis. Designed and developed the front-end pages with React. Enhanced the code quality by implementing a CI/CD pipeline with GitLab CI/CD."
+
+        [[params.projects.list]]
+        title = "One Stop Solution Website"
+        meta = "Course Project"
+        tagline = "Developed a full-stack web application with CakePHP framework and MySQL, which allows new immigrants of Australia to get familiar with new environment. Designed and implemented the front-end pages using HTML, CSS, JavaScript and Material-UI. Integrated third-party APIs to enrich the functionalities of the website, such as reCAPTCHA, Stripe payment API and TinyMCE rich text editor."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/nanhli"
+        title = "nanhli"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/he-li-sde"
+        title = "He Li"
+
+
+
+
+
